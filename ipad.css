@@ -1,0 +1,102 @@
+.body {
+    width: 768px;
+    margin: 0;
+    padding: 0;
+}
+.nav__link {
+    display: none;
+}
+.logo {
+    margin-left: 15.32px;
+    margin-right: 0;
+}
+.vectors {
+    display: none;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 768px;
+    margin-bottom: 80.32px;
+}
+.burger {
+    width: 35.23px;
+    height: 22.02px;
+    margin-right: 33px;
+}
+.title {
+    width: 370px;
+}
+.title__h1 {
+    margin: 0;
+}
+.image__background {
+    width: 821.81px;
+    height: 271.49px;;
+    margin-left: -26.91px;
+    margin-top: -23px;
+    margin-bottom: 202.12px;
+}
+.image__car {
+    width: 672.6px;
+    height: 327.64px;
+    margin-left: 47.7px;
+    margin-top: 206px;
+}
+.box {
+    margin: 0 auto 63.46px;
+    max-width: 487.27px;
+    flex-wrap: wrap;
+}
+.box__img-1 {
+    width: 65.92px;
+    height: 50.16px;
+}
+.box__img-2 {
+    width: 41.56px;
+    height: 64.45px;
+}
+.box__item {
+    margin: 0;
+}
+.box__item-1 {
+    margin-right: 66px;
+}
+.box__text-number {
+    font-size: 50px;
+    line-height: 61px;
+    font-weight: 600;
+}
+.mobile-box {
+    margin-bottom: 55px;
+}
+.mobile-test {
+    margin: 0 auto;
+}
+.test {
+    margin: 0;
+}
+.test__img-3 {
+    margin: 0;
+    margin-right: 9.6px;
+
+}
+.test__text {
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+    margin-right: 34.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
