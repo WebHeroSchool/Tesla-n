@@ -5,51 +5,46 @@
 .nav__link {
     display: none;
 }
+
 .logo {
     width: 138px;
     height: 42px;
-    margin: 5px 2px;
 }
-.vectors {
-    display: none;
-}
+
 .nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 375px;
+    max-width: 375px;
     margin-bottom: 30px;
+    margin-top: 5px;
 }
+
 .burger {
    width: 24px;
    height: 15px;
-   margin-right: 21px;
 }
 .title {
     max-width: 206px;
 }
+
 .title__h1 {
     margin: 0;
     font-size: 50px;
 }
+
 .title__h2 {
     font-size: 10px;
-    width: 161px;
+    max-width: 161px;
     margin: 0 auto;
 }
-.image__background {
-    width: 448px;
-    height: 139px;
-    margin-left: -30px;
-    margin-top: 8px;
-    margin-bottom: 86px;
+.background {
+    max-width: 448px;
 }
 .image__car {
-    width: 357px;
-    height: 166px;
-    margin-left: 9px;
-    margin-top: 120px;
+    max-width: 357px;
 }
+
 .box {
     margin: 0 auto 34px;
     max-width: 303px;
@@ -60,6 +55,7 @@
     width: 38.14px;
     height: 28.7px;
 }
+
 .box__img-2 {
     width: 25.29px;
     height: 41px;
@@ -73,6 +69,7 @@
 .box__text-speed {
     font-size: 10px;
 }
+
 .box__text-number {
     font-size: 27px;
     line-height: 33px;
@@ -84,6 +81,7 @@
 .mobile-box {
     margin-bottom: 43px;
 }
+
 .mobile-test {
     display: flex;
     align-items: center;
@@ -92,18 +90,19 @@
     margin: 0;
 }
 
-
 .test__img-3 {
     margin: 0;
     margin-right: 7px;
     color: #E51937;
 }
+
 .test__text {
     font-size: 13px;
     display: inline-block;
     margin: 0;
     margin-right: 25px;
 }
+
 .vector {
     width: 28px;
     margin: 0 auto 93px;
