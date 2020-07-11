@@ -1,97 +1,272 @@
 .body {
-    max-width: 768px;
-    margin: 0;
-    padding: 0;
+  max-width: 768px;
+  margin: 0;
+  padding: 0;
 }
+
 .header {
-    max-width: 768px;
+  max-width: 768px;
 }
+
 .nav__link {
-    display: none;
+  display: none;
 }
+
 .vectors {
-    display: none;
+  display: none;
 }
+
 .nav {
-    margin-bottom: 80.32px;
+  margin-bottom: 80.32px;
 }
 
 .nav__input {
-    display: block;
-    width: 35px;
+  display: block;
+  width: 35px;
 }
 
 .title {
-    max-width: 370px;
-    margin-bottom: 48px;
+  max-width: 370px;
+  margin-bottom: 48px;
 }
+
 .title__h1 {
-    margin: 0;
+  margin: 0;
 }
+
 .background {
-    max-width: 768px;
+  max-width: 768px;
 }
+
 .image__car {
-    width: 87%;
+  width: 87%;
 }
 
 .box {
-    margin: 0 auto 63px;
-    width: 63%;
-    flex-wrap: wrap;
+  margin: 0 auto 63px;
+  width: 63%;
+  flex-wrap: wrap;
 }
 
 .box__img-1 {
-    width: 65.92px;
-    height: 50.16px;
+  width: 65.92px;
+  height: 50.16px;
 }
 
 .box__img-2 {
-    width: 41.56px;
-    height: 64.45px;
+  width: 41.56px;
+  height: 64.45px;
 }
+
 .box__item {
-    margin: 0;
+  margin: 0;
 }
+
 .box__item-1 {
-    margin-right: 66px;
+  margin-right: 66px;
 }
 
 .box__text-number {
-    font-size: 50px;
-    line-height: 61px;
-    font-weight: 600;
+  font-size: 50px;
+  line-height: 61px;
+  font-weight: 600;
 }
 
 .mobile-box {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    /*max-width: 487px;*/
-    margin: 0 auto;
-    margin-bottom: 55px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 55px;
 }
+
 .mobile-test {
-    margin: 0 auto;
+  margin: 0 auto;
 }
+
 .test {
-    margin: 0;
+  margin: 0;
 }
 
 .test__img-3 {
-    margin: 0;
-    margin-right: 9.6px;
+  margin: 0;
+  margin-right: 9.6px;
 }
 
 .test__text {
-    font-size: 16px;
-    display: inline-block;
-    margin: 0;
-    margin-right: 34.5px;
+  font-size: 16px;
+  display: inline-block;
+  margin: 0;
+  margin-right: 34.5px;
 }
 
+.main {
+  max-width: 768px;
+}
 
+.future {
+  display: block;
+}
 
+.future__h1 {
+  height: 500px;
+  max-width: 100%;
+  padding-left: 57%;
+  background-size: 919px;
+  white-space: nowrap;
+}
+
+.section {
+  padding-top: 55px;
+}
+
+.section__future {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+}
+
+.mobile__section {
+  max-width: 300px;
+  margin:  0 116px 60px 34px;
+}
+
+ .mobile__section_icon {
+  max-width: 270px;
+ }
+
+.section__h1 {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.section__h1_safe {
+  max-width: 316px;
+}
+
+.section__p {
+  margin: 0;
+}
+
+.section__icon {
+  margin: 0;
+}
+
+.item__icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 21px;
+}
+
+.icon__text_b {
+  white-space: ;
+}
+
+.link__section {
+  font-weight: 600;
+  font-size: 16px;
+  margin-right: 37px;
+  margin-left: 0;
+}
+
+.section__info {
+  margin: 0 auto;
+  margin-bottom: 52px;
+}
+
+.safe {
+  display: block;
+  position: static;
+}
+
+.section__safe {
+  width: 100%;
+  padding-bottom: 52px;
+}
+
+.section__safe_img {
+  display: none;
+}
+
+.safe__img{
+  display: none;
+}
+
+.section__p_safe {
+  max-width: 316px;
+  margin-bottom: 85px;
+}
+
+.five {
+  display: none;
+}
+
+.mobile__section_flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section__safe_mobile {
+  margin-right: 70px;
+  margin-left: 20px;
+}
+
+.section__h2 {
+  margin-left: 0;
+}
+
+.ul {
+  margin-left: 0;
+}
+
+.section__safe_flex {
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+.mobile__img {
+  display: block;
+  height: 538px;
+  background: url(img/safe-bg.svg) 666px 192px;
+  background-repeat: no-repeat;
+  background-position: top 37px left 82px;
+}
+
+.safe__img-mobile {
+  width: 750.15px;
+  height: 386.16px;
+  position: absolute;
+  margin-top: 114px;
+  margin-right: 34px;
+}
+
+.section__safe_img-mobile {
+  display: relative;
+}
+
+.description__p {
+  font-size: 15px;
+}
+
+.description__p_1 {
+  margin-top: 111px;
+  margin-left: 186px;
+}
+
+.description__p_2 {
+  margin-top: 77px;
+  margin-left: 384px;
+}
+
+.description__p_3 {
+  margin-top: 420px;
+  margin-left: 434px;
+}
+
+.section__safe_mobile-2 {
+  display: none;
+}
 
 
 
