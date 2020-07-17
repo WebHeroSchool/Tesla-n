@@ -4,7 +4,7 @@
   padding: 0;
 }
 
-.header {
+.section_first {
   max-width: 768px;
 }
 
@@ -16,7 +16,7 @@
   display: none;
 }
 
-.nav {
+.header {
   margin-bottom: 80.32px;
 }
 
@@ -110,9 +110,8 @@
 
 .future__h1 {
   height: 500px;
-  max-width: 100%;
+  width: auto;
   padding-left: 57%;
-  background-size: 919px;
   white-space: nowrap;
 }
 
@@ -129,12 +128,12 @@
 
 .mobile__section {
   max-width: 300px;
-  margin:  0 116px 60px 34px;
+  margin: 0 116px 60px 34px;
 }
 
- .mobile__section_icon {
+.mobile__section_icon {
   max-width: 270px;
- }
+}
 
 .section__h1 {
   margin: 0;
@@ -157,10 +156,6 @@
   display: flex;
   align-items: center;
   margin-bottom: 21px;
-}
-
-.icon__text_b {
-  white-space: ;
 }
 
 .link__section {
@@ -189,7 +184,7 @@
   display: none;
 }
 
-.safe__img{
+.safe__img {
   display: none;
 }
 
@@ -228,17 +223,30 @@
 .mobile__img {
   display: block;
   height: 538px;
+  background-size: 666px 192px;
   background: url(img/safe-bg.svg) 666px 192px;
   background-repeat: no-repeat;
   background-position: top 37px left 82px;
 }
 
 .safe__img-mobile {
-  width: 750.15px;
+  width: 750px;
   height: 386.16px;
   position: absolute;
   margin-top: 114px;
   margin-right: 34px;
+}
+
+@media screen and (max-width: 600px) {
+  .safe__img-mobile {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .safe__img-mobile {
+    width: 500px;
+  }
 }
 
 .section__safe_img-mobile {
@@ -265,7 +273,7 @@
 }
 
 .section__safe_mobile-2 {
-  display: none;
+  display: block;
 }
 
 
