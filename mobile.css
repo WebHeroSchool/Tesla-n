@@ -53,6 +53,7 @@
   margin: 0 auto 34px;
   max-width: 303px;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .box__img-1 {
@@ -103,7 +104,7 @@
 .test__img-3 {
   margin: 0;
   margin-right: 7px;
-  color: #E51937;
+  color: #e51937;
 }
 
 .test__text {
@@ -149,9 +150,9 @@
 
 .mobile__section_icon {
   display: none;
- }
+}
 
- .section__info {
+.section__info {
   display: none;
 }
 
@@ -161,7 +162,7 @@
 
 .section__h1_safe {
   max-width: 316px;
-  margin: 0 auto ;
+  margin: 0 auto;
   margin-bottom: 9px;
 }
 
@@ -172,6 +173,7 @@
 
 .mobile__section_flex {
   display: block;
+  margin: 0 auto;
 }
 
 .section__safe_mobile {
@@ -193,9 +195,6 @@
   margin-right: 15px;
   height: auto;
 }
-
-
-
 
 .description__p {
   font-size: 7px;
