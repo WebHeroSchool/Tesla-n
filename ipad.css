@@ -223,8 +223,8 @@
 .mobile__img {
   display: block;
   height: 538px;
-  background-size: 666px 192px;
   background: url(img/safe-bg.svg);
+  background-size: 666px 192px;
   background-repeat: no-repeat;
   background-position: top 37px left 82px;
 }

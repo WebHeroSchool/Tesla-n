@@ -59,7 +59,7 @@ body {
   color: #e51937;
 }
 
-.nav__link-s::after {
+.nav__link:hover::after {
   content: '';
   display: block;
   width: 100%;
@@ -192,6 +192,24 @@ body {
   height: 22px;
 }
 
+.box__button {
+  color: #e51937;
+  border: 2px solid #e51937;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  width: 160px;
+  height: 40px;
+  background: #fff;
+  cursor: pointer;
+  transition: .5s linear;
+}
+
+.box__button:hover {
+  background: rgb(243, 194, 194);
+  font-size: 14px;
+}
+
 .test__text {
   margin: 0;
   margin-top: 23px;
@@ -307,6 +325,12 @@ body {
   margin-right: 25px;
   display: flex;
   align-items: center;
+  transition: .5s linier;
+}
+
+.link__section:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .link__section::before {
@@ -321,13 +345,31 @@ body {
   margin-bottom: 63px;
 }
 
+.future__button {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 700;
+  width: 160px;
+  height: 40px;
+  background: #e51937;
+  color: #fff;
+  border: 2px solid #fff;
+  cursor: pointer;
+  transition: .5s linear;
+}
+
+.future__button:hover {
+  background: #e40628;
+  font-size: 14px;
+}
+
 .safe {
   display: flex;
   position: relative;
 }
 
 .section__safe {
-  display: flex ;
+  display: flex;
   flex-wrap: wrap;
   width: 30%;
 }
@@ -415,7 +457,8 @@ body {
 }
 
 .section__safe_img {
-  background: url(img/safe-bg.svg) 931px 269px;
+  background: url(img/safe-bg.svg);
+  background-size: 931px 269px;
   background-repeat: no-repeat;
   background-position: top 97px left 189px;
   width: 70%;
@@ -438,6 +481,7 @@ body {
   position: absolute;
   font-weight: 600;
   font-size: 17px;
+  line-height: 15px;
 }
 
 .description__p_1 {
@@ -445,14 +489,38 @@ body {
   margin-left: 189px;
 }
 
+.description__p_1:after {
+  content: '';
+  display: block;
+  width: 4px;
+  height: 271px;
+  background-color: #e51937;
+}
+
 .description__p_2 {
   margin-top: 171px;
   margin-left: 446px;
 }
 
+.description__p_2:after {
+  content: '';
+  display: block;
+  background-color: #e51937;
+  width: 4px;
+  height: 122px;
+}
+
 .description__p_3 {
   margin-top: 677px;
   margin-left: 520px;
+}
+
+.description__p_3:before {
+  content: '';
+  display: block;
+  background-color: #e51937;
+  width: 4px;
+  height: 108px;
 }
 
 .mobile__img {
