@@ -55,6 +55,10 @@ body {
   width: 14%;
 }
 
+.burger:hover {
+  cursor: pointer;
+}
+
 .nav__link:hover {
   color: #e51937;
 }
@@ -193,21 +197,20 @@ body {
 }
 
 .box__button {
-  color: #e51937;
+  color: #fff;
   border: 2px solid #e51937;
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 700;
   width: 160px;
   height: 40px;
-  background: #fff;
+  background:#e51937;
   cursor: pointer;
-  transition: .5s linear;
 }
 
 .box__button:hover {
-  background: rgb(243, 194, 194);
-  font-size: 14px;
+  background: #fff;
+  color: #e51937;
 }
 
 .test__text {
@@ -339,7 +342,7 @@ body {
 }
 
 .section__info {
-  white-space: nowrap;
+  width: 100%;
   display: flex;
   align-items: center;
   margin-bottom: 63px;
@@ -355,12 +358,11 @@ body {
   color: #fff;
   border: 2px solid #fff;
   cursor: pointer;
-  transition: .5s linear;
 }
 
 .future__button:hover {
-  background: #e40628;
-  font-size: 14px;
+  background: #fff;
+  color: #e51937;
 }
 
 .safe {
@@ -465,16 +467,10 @@ body {
 }
 
 .safe__img {
-  width: 1049px;
+  width: 73%;
   position: absolute;
   margin-top: 15%;
   margin-left: 24%;
-}
-
-@media screen and (max-width: 1200px) {
-  .safe__img {
-    width: 900px;
-  }
 }
 
 .description__p {
@@ -485,43 +481,46 @@ body {
 }
 
 .description__p_1 {
+  position: absolute;
   margin-top: 219px;
-  margin-left: 189px;
+  margin-left: 169px;
 }
 
-.description__p_1:after {
+/*.description__p_1::after {
   content: '';
   display: block;
   width: 4px;
   height: 271px;
   background-color: #e51937;
-}
+}*/
 
 .description__p_2 {
+  position: absolute;
   margin-top: 171px;
-  margin-left: 446px;
+  margin-left: 448px;
 }
 
-.description__p_2:after {
+/*.description__p_2::after {
   content: '';
   display: block;
   background-color: #e51937;
   width: 4px;
   height: 122px;
-}
+}*/
 
 .description__p_3 {
-  margin-top: 677px;
-  margin-left: 520px;
+  position: absolute;
+  margin-top: 590px;
+  margin-left: 503px;
 }
 
-.description__p_3:before {
+/*.description__p_3::before {
   content: '';
   display: block;
   background-color: #e51937;
   width: 4px;
   height: 108px;
-}
+}*/
 
 .mobile__img {
   display: none;
