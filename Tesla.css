@@ -72,6 +72,26 @@ body {
   margin-top: 6px;
 }
 
+@media screen and (max-width: 1200px) {
+  .nav {
+    display: none;
+  }
+
+  .header {
+    padding: 24px 33px 0px 16px;
+    margin-bottom: 80.32px;
+  }
+
+  .nav__input {
+    display: block;
+    min-width: 35px;
+  }
+
+  .nav__link {
+    display: none;
+  }
+}
+
 .background {
   background: url(img/background-header.png);
   background-repeat: no-repeat;
@@ -248,17 +268,21 @@ body {
 
 .future {
   display: flex;
+  justify-content: space-between;
+  background: url(img/future.png) no-repeat;
+  background-size: cover;
+}
+
+.section__future-left {
+  max-width: 1000px;
 }
 
 .future__h1 {
-  width: 69%;
   font-size: 70px;
   font-weight: 600;
   color: #e51937;
   margin: 0;
-  padding-left: 80px;
-  background: url(img/future.png) no-repeat;
-  background-size: cover;
+  margin-left: 80px;
 }
 
 .section {
@@ -267,14 +291,14 @@ body {
 }
 
 .section__future {
-  width: 31%;
+  max-width: 440px;
 }
 
 .section__h1 {
   margin: 50px 0 10px 51px;
   font-weight: 600;
   font-size: 30px;
-  white-space: nowrap;
+  white-space: wrap;
 }
 
 .section__p {
