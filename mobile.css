@@ -116,7 +116,7 @@
   margin: 0 auto;
 }
 
-..main {
+.main {
   max-width: 375px;
 }
 
@@ -194,4 +194,8 @@
 
 .section__safe_mobile-2 {
   display: none;
+}
+
+.section__safe_mobile-1 {
+  margin: 0;
 }
