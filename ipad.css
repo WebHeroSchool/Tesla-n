@@ -13,7 +13,7 @@
 }
 
 .header {
-  padding: 24px 33px 0px 16px;
+  padding: 24px 33px 0 16px;
   margin-bottom: 80.32px;
 }
 
@@ -26,13 +26,14 @@
   min-width: 35px;
 }
 
-.title {
-  max-width: 370px;
-  margin-bottom: 48px;
+.burger {
+  width: 35px;
+  height: 22px;
 }
 
-.title__h1 {
-  margin: 0;
+.title {
+  max-width: 370px;
+  margin-bottom: 96px;
 }
 
 .background {
@@ -41,6 +42,8 @@
 
 .image__car {
   width: 87%;
+  margin-left: 48px;
+  margin-bottom: 50px;
 }
 
 .box {
@@ -51,8 +54,8 @@
 }
 
 .box__img-1 {
-  width: 65.92px;
-  height: 50.16px;
+  width: 75px;
+  height: 55px;
 }
 
 .box__img-2 {
@@ -65,13 +68,17 @@
 }
 
 .box__item-1 {
-  margin-right: 66px;
+  margin-right: 85px;
 }
 
 .box__text-number {
   font-size: 50px;
-  line-height: 61px;
   font-weight: 600;
+}
+
+.box__text-sec {
+  font-size: 20px;
+  margin-left: 8px;
 }
 
 .mobile-box {
@@ -90,15 +97,23 @@
 }
 
 .test__img-3 {
+  width: 30.37px;
+  height: 30.37px;
   margin: 0;
-  margin-right: 9.6px;
+  margin-right: 11px;
+}
+
+.box__button {
+  font-size: 16px;
+  width: 220px;
+  height: 55px;
 }
 
 .test__text {
   font-size: 16px;
   display: inline-block;
   margin: 0;
-  margin-right: 34.5px;
+  margin-right: 48px;
 }
 
 .main {
@@ -138,12 +153,14 @@
 }
 
 .mobile__section {
-  max-width: 300px;
-  margin: 0 116px 60px 34px;
+  max-width: 318px;
+  margin: 0 82px 75px 34px;
 }
 
 .mobile__section_icon {
   max-width: 270px;
+  margin-left: 34px;
+  padding-bottom: 50px;
 }
 
 .section__h1 {
@@ -172,14 +189,26 @@
 .link__section {
   font-weight: 600;
   font-size: 16px;
-  margin-right: 37px;
-  margin-left: 0;
+  margin-right: 55px;
+}
+
+.link__section::before {
+  content: url(img/Group20.svg);
+  width: 31.18px;
+  height: 31.18px;
+  margin-right: 5px;
 }
 
 .section__info {
   width: auto;
   margin: 0 auto;
   margin-bottom: 52px;
+}
+
+.future__button {
+  font-size: 16px;
+  width: 220px;
+  height: 55px;
 }
 
 .safe {
@@ -190,6 +219,8 @@
 .section__safe {
   width: 100%;
   padding-bottom: 52px;
+  max-width: 100%;
+  padding-top: 60px;
 }
 
 .section__safe_img {
@@ -200,8 +231,11 @@
   display: none;
 }
 
+.section__safe_mobile-1 {
+  max-width: 317px;
+}
+
 .section__p_safe {
-  max-width: 316px;
   margin-bottom: 85px;
 }
 
@@ -216,7 +250,23 @@
   margin-left: 34px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
+  .test__img-3 {
+    width: 22px;
+    height: 22px;
+    margin-right: 7px;
+  }
+  
+  .box__button {
+    font-size: 13px;
+    width: 160px;
+    height: 40px;
+  }
+
+  .section__info {
+    width: 100%;
+  }
+
   .mobile__section_flex {
     flex-wrap: wrap;
   }
@@ -316,8 +366,8 @@
 .safe__img-mobile {
   width: 100%;
   position: absolute;
-  margin-top: 114px;
- 
+  margin-top: 85px;
+  margin-left: -20px;
 }
 
 .section__safe_img-mobile {

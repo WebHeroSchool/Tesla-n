@@ -24,11 +24,11 @@ body {
 }
 
 .header {
-  padding: 24px 60px 0px 42px;
+  padding: 24px 60px 0 42px;
   display: flex;
   align-items: center;
   justify-content: space-between;
- 
+  margin-bottom: 58px;
 }
 
 .nav__link {
@@ -109,10 +109,9 @@ body {
 
 .title__h1 {
   margin: 0 auto;
-  margin-top: 74px;
   font-weight: 600;
   font-size: 90px;
-  margin-bottom: 9px;
+  margin-bottom: -9px;
 }
 
 .title__h2 {
@@ -126,16 +125,14 @@ body {
   display: block;
   size: contain;
   width: 67%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 199px;
   margin-bottom: 26px;
 }
 
 .box {
   margin: 0 auto;
-  margin-bottom: 37px;
+  margin-bottom: 34px;
   max-width: 800px;
-  width: 56%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -198,6 +195,7 @@ body {
 
 .mobile-test {
   margin: 0 auto;
+  margin-bottom: auto;
   display: flex;
   align-items: center;
 }
@@ -245,7 +243,7 @@ body {
 
 .vector {
   width: 28px;
-  margin: 0 auto 93px;
+  margin: 0 auto 37px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -283,6 +281,7 @@ body {
   color: #e51937;
   margin: 0;
   margin-left: 80px;
+  margin-top: 60px;
 }
 
 .section {
@@ -302,9 +301,9 @@ body {
 }
 
 .section__p {
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
-  margin: 0 72px 54px 52px;
+  margin: 0 72px 70px 52px;
 }
 
 .section__icon {
@@ -314,7 +313,7 @@ body {
 .item__icon {
   display: flex;
   align-items: center;
-  margin-bottom: 52px;
+  margin-bottom: 35px;
 }
 
 .icon__img {
@@ -348,8 +347,8 @@ body {
   font-weight: 600;
   font-size: 13px;
   text-transform: uppercase;
-  margin-left: 67px;
-  margin-right: 25px;
+  margin-left: 49px;
+  margin-right: 35px;
   display: flex;
   align-items: center;
   transition: .5s linier;
@@ -397,7 +396,7 @@ body {
 .section__safe {
   display: flex;
   flex-wrap: wrap;
-  width: 30%;
+  max-width: 440px;
 }
 
 .section__h1_safe {
@@ -487,16 +486,28 @@ body {
   background-size: 931px 269px;
   background-repeat: no-repeat;
   background-position: top 97px left 189px;
-  width: 70%;
+  max-width: 1000px;
 }
 
 .safe__img {
   width: 73%;
   position: absolute;
+  margin-top: 171px;
+  margin-left: 345px;
+  max-width: fit-content;
   margin-top: 15%;
   margin-left: 24%;
+
 }
 
 .mobile__img {
   display: none;
+}
+
+.link__section-2 {
+  margin-left: 38px;
+}
+
+.future__button-2 {
+  margin-right: 55px;
 }

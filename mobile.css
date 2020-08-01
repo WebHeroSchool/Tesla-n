@@ -17,15 +17,21 @@
   justify-content: space-between;
   max-width: 375px;
   margin-bottom: 30px;
-  padding: 5px 21px 0px 2px;
+  padding: 5px 21px 0 2px;
+}
+
+.nav__input {
+  min-width: 24px;
 }
 
 .burger {
   width: 24px;
+  height: 15px;
 }
 
 .title {
   max-width: 206px;
+  margin-bottom: 50px;
 }
 
 .title__h1 {
@@ -45,6 +51,8 @@
 
 .image__car {
   max-width: 357px;
+  margin-left: 10px;
+  margin-bottom: 40px;
 }
 
 .box {
@@ -87,7 +95,7 @@
 }
 
 .mobile-box {
-  margin-bottom: 43px;
+  margin-bottom: 35px;
 }
 
 .mobile-test {
@@ -100,15 +108,19 @@
 }
 
 .test__img-3 {
-  margin: 0;
+  width: 22px;
+  height: 22px;
   margin-right: 7px;
-  color: #e51937;
+}
+
+.box__button {
+  font-size: 13px;
+  width: 160px;
+  height: 40px;
 }
 
 .test__text {
   font-size: 13px;
-  display: inline-block;
-  margin: 0;
   margin-right: 25px;
 }
 
@@ -125,6 +137,7 @@
   height: 325px;
   max-width: 100%;
   background-size: cover;
+  margin: 0;
 }
 
 .section {
@@ -133,7 +146,7 @@
 
 .section__future {
   display: block;
-  padding-bottom: 34px;
+  padding-bottom: 42px;
 }
 
 .section__h1 {
