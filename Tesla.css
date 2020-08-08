@@ -481,14 +481,6 @@ body {
   font-size: 25px;
 }
 
-.section__safe_img {
-  background: url(img/safe-bg.svg);
-  background-size: 931px 269px;
-  background-repeat: no-repeat;
-  background-position: top 97px left 189px;
-  max-width: 1000px;
-}
-
 .safe__img {
   width: 73%;
   position: absolute;
@@ -497,7 +489,14 @@ body {
   max-width: fit-content;
   margin-top: 15%;
   margin-left: 24%;
+}
 
+.safe__bg {
+  background-image: url(img/Group\ 66.png);
+  background-position: top 97px left -200px;
+  width: 1000px;
+  background-repeat: no-repeat;
+  background-size: ;
 }
 
 .mobile__img {
