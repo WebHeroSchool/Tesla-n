@@ -16,6 +16,7 @@ body {
 
 .logo {
   width: 166px;
+  margin-right: 40px;
 }
 
 .link {
@@ -35,10 +36,6 @@ body {
   font-size: 15px;
   white-space: nowrap;
   margin: 0 10px;
-}
-
-.logo {
-  margin-right: 40px;
 }
 
 .nav {
@@ -78,7 +75,7 @@ body {
   }
 
   .header {
-    padding: 24px 33px 0px 16px;
+    padding: 24px 33px 0 16px;
     margin-bottom: 80.32px;
   }
 
@@ -484,11 +481,20 @@ body {
 .safe__img {
   width: 73%;
   position: absolute;
-  margin-top: 171px;
-  margin-left: 345px;
-  max-width:;
-  /*margin-top: 15%;
-  margin-left: 24%;*/
+  top: 171px;
+  right: 46px;
+}
+
+@media screen and (max-width: 1024px) {
+  .safe__img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .safe__img {
+    max-width: 65%;
+  }
 }
 
 .safe__bg {
