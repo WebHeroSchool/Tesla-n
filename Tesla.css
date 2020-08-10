@@ -486,17 +486,16 @@ body {
   position: absolute;
   margin-top: 171px;
   margin-left: 345px;
-  max-width: fit-content;
-  margin-top: 15%;
-  margin-left: 24%;
+  max-width:;
+  /*margin-top: 15%;
+  margin-left: 24%;*/
 }
 
 .safe__bg {
-  background-image: url(img/Group\ 66.png);
-  background-position: top 97px left -200px;
+  background-image: url(img/safe-bg.svg);
+  background-position: top 145px left 210px;
   width: 1000px;
   background-repeat: no-repeat;
-  background-size: ;
 }
 
 .mobile__img {
