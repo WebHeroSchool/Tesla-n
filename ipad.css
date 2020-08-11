@@ -233,6 +233,7 @@
 
 .section__safe_mobile-1 {
   max-width: 317px;
+  margin-right: 70px;
 }
 
 .section__p_safe {
@@ -255,8 +256,9 @@
     width: 22px;
     height: 22px;
     margin-right: 7px;
+    color: #e51937;
   }
-  
+
   .box__button {
     font-size: 13px;
     width: 160px;
@@ -322,23 +324,13 @@
   .test {
     margin: 0;
   }
-  
-  .test__img-3 {
-    margin: 0;
-    margin-right: 7px;
-    color: #e51937;
-  }
-  
+
   .test__text {
     font-size: 13px;
     display: inline-block;
     margin: 0;
     margin-right: 25px;
   }
-}
-
-.section__safe_mobile-1 {
-  margin-right: 70px;
 }
 
 .section__h2 {
